@@ -33,8 +33,8 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Harshit ethic'
-username = 'harshitethic_bot'
+botname = '𝐓𝐈𝐍𝐘 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓'
+username = 'Tinychat_robot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -64,8 +64,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = '𝐓𝐈𝐍𝐘 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓'
+        username = 'Tinychat_robot'
         update.message.reply_text('Hi')
         return 
     else:
